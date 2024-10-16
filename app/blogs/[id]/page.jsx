@@ -22,9 +22,19 @@ const page = ({params}) => {
     }
   }
 
-  useEffect(()=>{
-     fetchBlogData();
-  },[])
+export default function Page() {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    // Fetching logic
+  }, []);
+
+  return (
+    <div>
+      {/* JSX code */}
+    </div>
+  );
+}
+
 
   return ( data?<>
     <div className=' py-6 px-6 md:px-12 lg:px-20'>
