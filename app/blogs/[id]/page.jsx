@@ -22,11 +22,6 @@ const page = ({params}) => {
     }
   }
 
-export default function Page() {
-  const [data, setData] = useState(null);
-  useEffect(() => {
-    // Fetching logic
-  }, []);
 
   return (
     <div>
